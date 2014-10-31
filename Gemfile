@@ -12,9 +12,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
+gem 'figaro'
 
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+gem 'fog'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
